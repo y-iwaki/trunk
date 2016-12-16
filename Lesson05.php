@@ -1,9 +1,9 @@
 <?php
 require 'Person.php';
 
-$per1 = new Person("²“¡‘¾˜Y","“Œ‹ž“s",20,"0303123456");
-$per2 = new Person("ŽR“c‰ÔŽq","ÂXŒ§",80,"0170123456");
-$per3 = new Person("–Ø‘º ŽŸ˜Y","‹ž“s•{",38,"0750123456");
+$per1 = new Person("ä½è—¤å¤ªéƒŽ","æ±äº¬éƒ½",20,"0303123456");
+$per2 = new Person("å±±ç”°èŠ±å­","é’æ£®çœŒ",80,"0170123456");
+$per3 = new Person("æœ¨æ‘ æ¬¡éƒŽ","äº¬éƒ½åºœ",38,"0750123456");
 
 list($perList1,$perList2,$perList3) = array($per1,$per2,$per3);
 $perList1->dataPrint();

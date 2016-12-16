@@ -10,10 +10,10 @@ class Employee extends Person {
 	}
 	
 	function dataPrint() {
-		echo "Ž–¼F{$this->getName()}\n";
-		echo "”N—îF{$this->getAge()}\n";
-		echo "Š‘®”Ô†F{$this->getSection()}\n";
-		echo "“d˜b”Ô†F{$this->getTelephone()}\n";
+		echo "æ°åï¼š{$this->getName()}\n";
+		echo "å¹´é½¢ï¼š{$this->getAge()}\n";
+		echo "æ‰€å±žç•ªå·ï¼š{$this->getSection()}\n";
+		echo "é›»è©±ç•ªå·ï¼š{$this->getTelephone()}\n";
 	}
 	
 	function setSection($section) {

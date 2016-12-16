@@ -11,11 +11,11 @@ class Engineer extends Person {
 	}
 	
 	function dataPrint() {
-		echo "Ž–¼F{$this->getName()}\n";
-		echo "ZŠF{$this->getAddress()}\n";
-		echo "”N—îF{$this->getAge()}\n";
-		echo "•Û—L‹ZpF{$this->getSkill()}\n";
-		echo "“d˜b”Ô†F{$this->getTelephone()}\n";
+		echo "æ°åï¼š{$this->getName()}\n";
+		echo "ä½æ‰€ï¼š{$this->getAddress()}\n";
+		echo "å¹´é½¢ï¼š{$this->getAge()}\n";
+		echo "ä¿æœ‰æŠ€è¡“ï¼š{$this->getSkill()}\n";
+		echo "é›»è©±ç•ªå·ï¼š{$this->getTelephone()}\n";
 	}
 	
 	function setSkill($skill) {
