@@ -1,26 +1,51 @@
 <?php
-//Personã‚¯ãƒ©ã‚¹
+//PersonƒNƒ‰ƒX
 class Person{
-	private $name;		//æ°å
-	private $address;		//ä½æ‰€
-	private $age;		//å¹´é½¢
-	private $telephone;		//é›»è©±ç•ªå·
+	private $name;		//Ž–¼
+	private $address;		//ZŠ
+	private $age;		//”N—î
+	private $telephone;		//“d˜b”Ô†
 	
-	//Personãƒ¡ã‚½ãƒƒãƒ‰
-	function Person($a,$b,$c,$d){
-		$this->name=$a;
-		$this->address=$b;
-		$this->age=$c;
-		$this->telephone=$d;
+	//Personƒƒ\ƒbƒh
+	function Person($name,$address,$age,$telephone){
+		$this->setName($name);
+		$this->setAddress($address);
+		$this->setAge($age);
+		$this->setTelephone($telephone);
 	}
 	
-	//dataPrintãƒ¡ã‚½ãƒƒãƒ‰
+	//dataPrintƒƒ\ƒbƒh
 	function dataPrint(){
-		echo 'æ°åï¼š' , $this->name , '<br/>';
-		echo 'ä½æ‰€ï¼š' , $this->address , '<br/>';
-		echo 'å¹´é½¢ï¼š' , $this->age , '<br/>';
-		echo 'é›»è©±ç•ªå·ï¼š' , $this->telephone , '<br/>';
-		echo '<br/>';
+		echo "Ž–¼F{$this->getName()}\n";
+		echo "ZŠF{$this->getAddress()}\n";
+		echo "”N—îF{$this->getAge()}\n";
+		echo "“d˜b”Ô†F{$this->getTelephone()}\n";
+		echo "\n";
+	}
+	
+	function setName($name){
+		$this->name=$name;
+	}
+	function getName(){
+		return $this->name;
+	}
+	function setAddress($address){
+		$this->address=$address;
+	}
+	function getAddress(){
+		return $this->address;
+	}
+	function setAge($age){
+		$this->age=$age;
+	}
+	function getAge(){
+		return $this->age;
+	}
+	function setTelephone($telephone){
+		$this->telephone=$telephone;
+	}
+	function getTelephone(){
+		return $this->telephone;
 	}
 }
 ?>
