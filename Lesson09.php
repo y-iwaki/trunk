@@ -12,9 +12,9 @@ $list->add2(8, -3);
 $list->printList();
 $list->add2(1, -1);
 $list->printList();
-$list->add2(4, 0);
+$list->add2(7, 0);
 $list->printList();
-$list->add2(10, 2);
+$list->add2(10, 9);
 $list->printList();
 
 ?>
